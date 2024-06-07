@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white px-6">
       <div className="max-w-[1280px] mx-auto">
         <div className="flex flex-col gap-6 md:w-1/2 h-screen justify-center items-start ">
           <h1 className="text-6xl font-semibold text-slate-800">

@@ -12,7 +12,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <section
-        className="text-center my-[8rem] max-w-[1280px] mx-auto"
+        className="text-center my-[8rem] max-w-[1280px] mx-auto px-6"
         id="benefits"
       >
         <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold w-96 mx-auto">
@@ -42,8 +42,8 @@ export default function Home() {
         />
       </section>
 
-      <div className="bg-white pt-[4rem]">
-        <section className="text-center  max-w-[1280px] mx-auto" id="services">
+      <div className="bg-white pt-[4rem] px-6">
+        <section className="text-center max-w-[1280px] mx-auto" id="services">
           <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold w-96 mx-auto">
             ¿Cuáles son nuestros servicios?
           </h2>

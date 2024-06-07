@@ -8,7 +8,7 @@ const SCurve = ({ direction }: SCurveProps) => {
   return (
     <>
       <div
-        className={`flex items-center justify-center px-12 my-[6rem] gap-5
+        className={`md:flex items-center justify-center my-[6rem] gap-5
       ${direction === "left" ? "flex-row-reverse" : "flex-row"}
         `}
       >
@@ -19,7 +19,7 @@ const SCurve = ({ direction }: SCurveProps) => {
             scelerisque, nunc nec luctus posuere, urna sapien ultricies nisi, eu
             suscipit nisi mi eget turpis.
           </p>
-          <button className="text-orange-700 px-5 py-2 rounded border border-orange-600 w-48">
+          <button className="text-teal-700 px-5 py-2 rounded border border-teal-600 w-48">
             Ver más
           </button>
         </div>
