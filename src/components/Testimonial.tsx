@@ -16,7 +16,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, photo, quote }) => {
         className="w-16 h-16 rounded-full mr-4"
       />
       <div className="flex-1">
-        <p className="italic">"{quote}"</p>
+        <p className="italic">{`"${quote}"`}</p>
         <p className="font-bold mt-2">- {name}</p>
       </div>
     </div>
