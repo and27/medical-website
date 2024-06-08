@@ -16,12 +16,12 @@ const ThreeColumnItems = ({ items }: ThreeColumnItemsProps) => {
         return (
           <div
             key={index}
-            className="flex flex-col items-center gap-4 shadow hover:shadow-lg p-7 bg-white"
+            className="flex flex-col items-center gap-4 p-7 bg-white  rounded-lg"
           >
             <div className="flex items-center justify-center w-20 h-20 rounded-full bg-teal-500 p-5">
               <Icon size={50} color="white" />
             </div>
-            <h3 className="text-2xl font-semibold text-slate-700">
+            <h3 className="text-2xl font-semibold text-slate-700 mt-2">
               {item.title}
             </h3>
             <p className="text-slate-500">{item.description}</p>
