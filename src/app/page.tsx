@@ -5,6 +5,8 @@ import SCurve from "@/components/SCurve";
 import ThreeColumnItems from "@/components/ThreeColumnItems";
 import { FaUserMd, FaYinYang } from "react-icons/fa";
 import { FaSpa } from "react-icons/fa6";
+import terapias from "./data/terapias";
+import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {
   return (
@@ -42,16 +44,26 @@ export default function Home() {
         />
       </section>
 
-      <div className="bg-white pt-[4rem] px-6">
+      <div className="bg-white py-[4rem] px-6">
         <section className="text-center max-w-[1280px] mx-auto" id="services">
           <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold w-96 mx-auto">
             ¿Cuáles son nuestros servicios?
           </h2>
-          <SCurve direction="right" />
-          <SCurve direction="left" />
-          <SCurve direction="right" />
+          {terapias.map((terapia, index) => (
+            <SCurve
+              key={index}
+              title={terapia.title}
+              description={terapia.description}
+              image={terapia.imageUrl}
+              direction={index % 2 === 0 ? "left" : "right"}
+            />
+          ))}
         </section>
       </div>
+
+      <section className="py-10 bg-gray-100">
+        <TestimonialSection />
+      </section>
 
       <Footer />
     </>
