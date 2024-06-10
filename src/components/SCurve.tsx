@@ -16,9 +16,9 @@ const SCurve = ({ title, description, image, direction }: SCurveProps) => {
         `}
       >
         <div className="text-left flex flex-col gap-3">
-          <h3 className="text-2xl">{title}</h3>
+          <h3 className="text-2xl text-slate-700 font-semibold">{title}</h3>
           <p className="text-slate-700">{description}</p>
-          <button className="text-teal-700 px-5 py-2 rounded border border-teal-600 w-48">
+          <button className="text-teal-700 px-5 py-2 rounded border border-teal-600 w-48 mb-5 md:mb-0">
             Ver más
           </button>
         </div>
