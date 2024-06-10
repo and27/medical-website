@@ -7,6 +7,7 @@ import { FaUserMd, FaYinYang } from "react-icons/fa";
 import { FaSpa } from "react-icons/fa6";
 import terapias from "./data/terapias";
 import TestimonialSection from "@/components/TestimonialSection";
+import ContactSection from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       <Nav />
       <Hero />
       <section
-        className="text-center my-[8rem] max-w-[1280px] mx-auto px-6"
-        id="benefits"
+        className="text-center py-[8rem] max-w-[1280px] mx-auto px-6"
+        id="beneficios"
       >
         <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold w-96 mx-auto">
           ¿Porqué deberías confiar en nosotros?
@@ -44,8 +45,8 @@ export default function Home() {
         />
       </section>
 
-      <div className="bg-white py-[4rem] px-6">
-        <section className="text-center max-w-[1280px] mx-auto" id="services">
+      <div className="bg-white py-[4rem] px-6" id="servicios">
+        <section className="text-center max-w-[1280px] mx-auto">
           <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold w-96 mx-auto">
             ¿Cuáles son nuestros servicios?
           </h2>
@@ -61,10 +62,10 @@ export default function Home() {
         </section>
       </div>
 
-      <section className="py-10 bg-gray-100">
+      <section className="py-10 bg-gray-100" id="testimonios">
         <TestimonialSection />
       </section>
-
+      <ContactSection />
       <Footer />
     </>
   );
