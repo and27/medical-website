@@ -4,13 +4,13 @@ import Testimonial from "./Testimonial";
 const testimonials = [
   {
     name: "Juan Pérez",
-    photo: "/path/to/photo1.jpg",
+    photo: "/man.png",
     quote:
       "El servicio fue excelente y me sentí muy cómodo durante todo el proceso.",
   },
   {
     name: "María López",
-    photo: "/path/to/photo2.jpg",
+    photo: "/woman.png",
     quote:
       "Los profesionales son muy amables y expertos en su área. ¡Altamente recomendados!",
   },
@@ -18,11 +18,11 @@ const testimonials = [
 
 const TestimonialSection: React.FC = () => {
   return (
-    <div className="py-10 bg-gray-100">
-      <h2 className="text-center text-3xl font-bold mb-6">
-        Testimonios de Pacientes
+    <section className="bg-gray-100 text-center max-w-[1080px] mx-auto py-[8rem]">
+      <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold w-96 mx-auto">
+        ¿Qué dicen de nosotros?
       </h2>
-      <div className="max-w-4xl mx-auto grid grid-cols-2">
+      <div className="mx-auto grid md:grid-cols-2 px-10 gap-10">
         {testimonials.map((testimonial, index) => (
           <Testimonial
             key={index}
@@ -32,7 +32,7 @@ const TestimonialSection: React.FC = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
