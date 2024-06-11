@@ -8,7 +8,7 @@ const ContactSection = () => {
       id="contacto"
     >
       <div className="max-w-[1080px] mx-auto flex flex-col items-center">
-        <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold w-96 mx-auto">
+        <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold md:w-96 mx-auto">
           ¿Dónde nos encontramos?
         </h2>
         <div>
