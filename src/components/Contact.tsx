@@ -21,7 +21,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-neutral-600 mb-1">Llámanos</p>
-                <p className="text-2xl text-slate-700 font-semibold">
+                <p className="text-xl md:text-2xl text-slate-700 font-semibold">
                   +34 123 456 789{" "}
                 </p>
               </div>
@@ -32,7 +32,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-neutral-600 mb-1">Escríbenos</p>
-                <p className="text-2xl text-slate-700 font-semibold">
+                <p className="text-xl md:text-2xl text-slate-700 font-semibold">
                   <a href="mailto:ivan@gmail.com">ivan@gmail.com</a>
                 </p>
               </div>

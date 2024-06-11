@@ -15,10 +15,10 @@ export default function Home() {
       <Nav />
       <Hero />
       <section
-        className="text-center py-[8rem] max-w-[1280px] mx-auto px-6"
+        className="text-center py-[4rem] md:py-[8rem] max-w-[1280px] mx-auto px-6"
         id="beneficios"
       >
-        <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold md:w-96 mx-auto">
+        <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold md:w-96 mx-auto">
           ¿Porqué deberías confiar en nosotros?
         </h2>
         <ThreeColumnItems
@@ -45,9 +45,9 @@ export default function Home() {
         />
       </section>
 
-      <div className="bg-white py-[4rem] px-6" id="servicios">
+      <div className="bg-white py-[4rem] md:py-[8rem] px-6" id="servicios">
         <section className="text-center max-w-[1280px] mx-auto">
-          <h2 className="text-4xl text-slate-700 my-[5rem] font-semibold md:w-96 mx-auto">
+          <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold md:w-96 mx-auto">
             ¿Cuáles son nuestros servicios?
           </h2>
           {terapias.map((terapia, index) => (

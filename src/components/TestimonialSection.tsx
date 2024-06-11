@@ -18,7 +18,7 @@ const testimonials = [
 
 const TestimonialSection: React.FC = () => {
   return (
-    <section className="bg-gray-100 text-center max-w-[1080px] mx-auto py-[8rem]">
+    <section className="bg-gray-100 text-center max-w-[1080px] mx-auto py-[4rem] md:py-[8rem]">
       <h2 className="text-4xl text-slate-700 mb-[5rem] font-semibold md:w-96 mx-auto">
         ¿Qué dicen de nosotros?
       </h2>

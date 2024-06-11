@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-white px-6 pattern">
-      <div className="max-w-[1280px] mx-auto flex items-center h-screen pt-[80px]">
+    <div className="bg-white px-6 pattern md:pt-[80px]">
+      <div className="max-w-[1280px] mx-auto flex items-center h-screen">
         <div className="flex flex-col gap-6 md:w-1/2 justify-center items-start">
-          <h1 className="text-6xl font-semibold text-slate-800">
+          <h1 className="text-4xl md:text-6xl font-semibold text-slate-800">
             Tu confianza es nuestro mayor incentivo
           </h1>
           <p className="text-slate-600 text-lg">
